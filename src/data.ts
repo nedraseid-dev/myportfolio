@@ -5,7 +5,7 @@ export const defaultPortfolioData: PortfolioData = {
   role: "Full-Stack Engineer",
   location: "Addis Ababa, Ethiopia",
   bio: "Engineering high-impact web ecosystems, robust backend services, and intelligent automation for real-world solutions.",
-  detailedBio: "I am a dedicated Full-Stack Engineer based in Addis Ababa, Ethiopia. I specialize in designing and shipping scalable web applications that combine clean architectures with smart interactive workflows. Experienced in developing enterprise platforms, AI integration (using Gemini), and role-based workflows for public and private organizations.",
+  detailedBio: "I am NEDRA SEID a freshman at ETHIOPIAN PUBLIC SERVICE UNIVERCITY and dedicated Full-Stack Engineer based in Addis Ababa, Ethiopia. I specialize in designing and shipping scalable web applications that combine clean architectures with smart interactive workflows. Experienced in developing enterprise platforms, AI integration (using Gemini), and role-based workflows for public and private organizations.",
   socials: {
     github: "https://github.com/nedraseid-dev",
     linkedin: "https://www.linkedin.com/in/nedra-seid-b144ab3b0",
@@ -14,8 +14,8 @@ export const defaultPortfolioData: PortfolioData = {
     telegram: "https://t.me/ameteljebbar",
   },
   stats: [
-    { label: "Completed Projects", value: "5" },
-    { label: "Client Platforms Deployed", value: "3" },
+    { label: "Completed Projects", value: "10" },
+    { label: "Client Platforms Deployed", value: "15" },
     { label: "System Uptime Guaranteed", value: "99.9%" },
   ],
   projects: [

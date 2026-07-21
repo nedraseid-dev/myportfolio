@@ -16,7 +16,6 @@ import PortfolioProjects from "./components/PortfolioProjects";
 import PortfolioSkills from "./components/PortfolioSkills";
 import PortfolioExperience from "./components/PortfolioExperience";
 import PortfolioContact from "./components/PortfolioContact";
-import PortfolioEditor from "./components/PortfolioEditor";
 import { defaultPortfolioData } from "./data";
 import { PortfolioData } from "./types";
 
@@ -82,13 +81,6 @@ export default function App() {
       <PortfolioSkills data={portfolioData} />
       <PortfolioExperience data={portfolioData} />
       <PortfolioContact data={portfolioData} />
-
-      {/* Absolute Live Customizable Control Center */}
-      <PortfolioEditor
-        data={portfolioData}
-        onChange={handleUpdatePortfolioData}
-        onReset={handleResetPortfolioData}
-      />
     </div>
   );
 }
