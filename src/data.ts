@@ -107,10 +107,10 @@ export const defaultPortfolioData: PortfolioData = {
     },
     {
       id: "exp-3",
-      role: "Software Engineering & CyberSecurity Trainee / Scholar",
+      role: "Software Engineering & CyberSecurity Trainee",
       company: "INSA (Information Network Security Administration)",
-      duration: "2022 - 2023",
-      description: "Acquired depth in secure software development lifecycle (SSDLC), security frameworks, and threat modeling. Designed and developed secure prototype services and analyzed vulnerabilities under expert security engineers.",
+      duration: "2025 - 2026",
+      description: "Acquired depth knowledge in secure software development lifecycle (SSDLC), security frameworks, and threat modeling. Designed and developed secure prototype services and analyzed vulnerabilities under expert security engineers.",
       tags: ["Application Security", "API Hardening", "SSDLC", "Network Security"],
     },
   ],

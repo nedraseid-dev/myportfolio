@@ -153,14 +153,7 @@ export default function PortfolioEditor({ data, onChange, onReset }: PortfolioEd
   return (
     <>
       {/* Floating control trigger */}
-      <button
-        onClick={() => setIsOpen(true)}
-        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-primary text-primary-foreground font-semibold px-4 py-3 rounded-full shadow-lg hover:scale-105 active:scale-95 transition-all duration-200 cursor-pointer text-xs uppercase tracking-widest font-mono"
-        id="open-editor-btn"
-      >
-        <Sliders className="w-4 h-4" />
-        Edit Portfolio
-      </button>
+      
 
       <AnimatePresence>
         {isOpen && (
