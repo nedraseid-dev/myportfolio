@@ -9,8 +9,6 @@ export const defaultPortfolioData: PortfolioData = {
   socials: {
     github: "https://github.com/nedraseid-dev",
     linkedin: "https://www.linkedin.com/in/nedra-seid-b144ab3b0",
-    twitter: "https://x.com/NedraSeid64192",
-    email: "nedraseid@gmail.com",
     telegram: "https://t.me/ameteljebbar",
   },
   stats: [
