@@ -1,8 +1,5 @@
-import React, { Suspense } from "react";
 import { Github, Linkedin, Twitter, Mail, ArrowDown, MapPin, Send } from "lucide-react";
 import { PortfolioData } from "../types";
-
-const Spline = React.lazy(() => import("@splinetool/react-spline"));
 
 interface PortfolioHeroProps {
   data: PortfolioData;
@@ -28,18 +25,6 @@ export default function PortfolioHero({ data }: PortfolioHeroProps) {
 
   return (
     <section className="relative min-h-screen flex items-end bg-hero-bg overflow-hidden select-none">
-      {/* Spline 3D Background */}
-      <div className="absolute inset-0">
-        <Suspense fallback={<div className="absolute inset-0 bg-hero-bg" />}>
-          <Spline
-            scene="https://prod.spline.design/Slk6b8kz3LRlKiyk/scene.splinecode"
-            className="w-full h-full"
-          />
-        </Suspense>
-      </div>
-
-      {/* Dark Overlay for optimal text readability */}
-      <div className="absolute inset-0 bg-black/50 z-[1] pointer-events-none" />
 
       {/* Hero Content Area */}
       <div className="relative z-10 pointer-events-none w-full max-w-[90%] sm:max-w-md lg:max-w-2xl px-6 md:px-12 pb-16 md:pb-24 pt-32 flex flex-col items-start justify-end">
