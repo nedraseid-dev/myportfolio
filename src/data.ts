@@ -23,7 +23,7 @@ export const defaultPortfolioData: PortfolioData = {
       description: "A full-stack legal-tech platform built for the Ethiopian justice system, connecting citizens and lawyers.",
       longDescription: "A full-stack legal-tech platform built for the Ethiopian justice system, connecting citizens and lawyers through a unified case and consultation workflow. It features an AI legal assistant powered by Gemini, along with a complete invite/consultation system, JWT-secured authentication, and role-based case management.",
       image: "/src/assets/images/low.png",
-      tags: ["React", "Node.js", "Gemini AI", "JWT", "Express", "MongoDB"],
+      tags: ["React", "Node.js", "open AI grok", "PostgreSQL", "Express", "Spring Boot"],
       demoUrl: "https://qanun-rust.vercel.app",
       githubUrl: "https://github.com",
       featured: true,
